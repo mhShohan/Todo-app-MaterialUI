@@ -27,14 +27,7 @@ const reducer = (state, action) => {
 };
 
 //initialize the state
-const initState = [
-  { id: 1, name: 'Create Markup with react', completed: true },
-  {
-    id: 2,
-    name: 'Initiate State with Context API and useReducer',
-    completed: true
-  }
-];
+const initState = [];
 
 //create the store and wrap the parent component
 const Store = ({ children }) => {
